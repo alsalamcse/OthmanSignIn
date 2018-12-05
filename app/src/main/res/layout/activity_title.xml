@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TitleActivity">
+
+    <EditText
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Title"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <Button
+        android:id="@+id/DatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick date"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:text="Important"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+</android.support.constraint.ConstraintLayout>

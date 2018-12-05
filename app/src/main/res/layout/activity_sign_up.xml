@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="First name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <EditText
+        android:id="@+id/Lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Last name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="356dp" />
+</android.support.constraint.ConstraintLayout>

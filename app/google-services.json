@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "307086531934",
+    "firebase_url": "https://othmansignin.firebaseio.com",
+    "project_id": "othmansignin",
+    "storage_bucket": "othmansignin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307086531934:android:bc9da00889965b9a",
+        "android_client_info": {
+          "package_name": "com.moaad178.othmansignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307086531934-6p8kk7621essl2uspekaagidoa6fkoiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moaad178.othmansignin",
+            "certificate_hash": "013f43c9a5d380c46de43c04644418dbe5d2a253"
+          }
+        },
+        {
+          "client_id": "307086531934-uuq2oe6vlbnabpspgagr1pj2vmr5gjuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3cem8A6-VJ80HVI8c9OXAMNBDS6yIAXs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307086531934-uuq2oe6vlbnabpspgagr1pj2vmr5gjuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
