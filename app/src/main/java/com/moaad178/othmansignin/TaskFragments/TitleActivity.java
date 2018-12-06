@@ -1,4 +1,4 @@
-package com.moaad178.othmansignin;
+package com.moaad178.othmansignin.TaskFragments;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -16,6 +16,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.moaad178.othmansignin.R;
 
 public class TitleActivity extends AppCompatActivity {
     private EditText title,text12;

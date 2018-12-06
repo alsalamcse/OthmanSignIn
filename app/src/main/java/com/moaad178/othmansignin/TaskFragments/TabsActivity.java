@@ -1,4 +1,4 @@
-package com.moaad178.othmansignin;
+package com.moaad178.othmansignin.TaskFragments;
 
 import android.content.Intent;
 import android.support.design.widget.TabLayout;
@@ -20,6 +20,8 @@ import android.view.ViewGroup;
 
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.moaad178.othmansignin.R;
 
 public class TabsActivity extends AppCompatActivity {
 
