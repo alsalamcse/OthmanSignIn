@@ -77,18 +77,22 @@ public class ItemFragment extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new MyItemRecyclerViewAdapter(DummyContent.ITEMS, mListener));
+            recyclerView.setAdapter(new MyItemRecyclerViewAdapter(reedTask(), mListener));
         }
         return view;
     }
 
 private List<MyTask> reedTask(){
-    ArrayList<MyTask> myTasks=null;
+    final ArrayList<MyTask> myTasks=null;
     //referance to the database root
     DatabaseReference databaseReference= FirebaseDatabase.getInstance().getReference();//
     databaseReference.child("MyTask").addValueEventListener(new ValueEventListener() {
         @Override
         public void onDataChange(DataSnapshot dataSnapshot) {
+            for (DataSnapshot d:dataSnapshot.getChildren()){
+                MyTask myTask=d.getValue(MyTask.class);
+                myTasks.add(myTask);
+            }
 
         }
 
@@ -129,6 +133,6 @@ private List<MyTask> reedTask(){
      */
     public interface OnListFragmentInteractionListener {
         // TODO: Update argument type and name
-        void onListFragmentInteraction(DummyItem item);
+        void onListFragmentInteraction(MyTask item);
     }
 }
